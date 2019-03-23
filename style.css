@@ -1,0 +1,89 @@
+.main-list {
+  list-style-type: none
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: darkgrey;
+  cursor: not-allowed;
+}
+
+.hiding-element {
+  display: none;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+#task-menu {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  background-color: aliceblue;
+
+  border: 5px double black;
+  border-radius: 5px;
+
+  width: 400px;
+}
+
+#task-menu label {
+  margin-left: 5px;
+  width: 100px;
+}
+
+#task-menu input {
+  width: 250px;
+  height: 34px;
+
+  font-size: 20px;
+}
+
+#task-menu button {
+  width: 70px;
+  height: 34px;
+}
+
+ul {
+  max-width: 360px;
+  width: 360px;
+  display: table;
+  table-layout: fixed;
+}
+
+li {
+  background-color: aliceblue;
+  margin: 10px;
+  overflow: auto;
+
+  border: 5px double black;
+  border-radius: 5px;
+}
+
+li input[type="checkbox"] {
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+
+li input {
+  width: 200px;
+  height: 34px;
+}
+
+li span {
+  width: 230px;
+  max-width: 230px;
+  min-width: 230px;
+  display: inline-block;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  margin-top: 5px;
+}
+
+li button {
+  float: right;
+  width: 56px;
+  height: 30px;
+}
